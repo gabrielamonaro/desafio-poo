@@ -25,6 +25,36 @@ public class Bootcamp {
     public void setDevsInscritos(Set<Dev> devsInscritos) {
         this.devsInscritos = devsInscritos;
     }
+
+    public void setConteudos(Set<Conteudo> conteudos) {
+        this.conteudos = conteudos;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public LocalDate getDataInicial() {
+        return dataInicial;
+    }
+
+    public LocalDate getDataFinal() {
+        return dataFinal;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+
     
     
 }
